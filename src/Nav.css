@@ -1,0 +1,8 @@
+.nav-container {
+  display: flex;
+  height: 10%;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 40px;
+  border: 1px solid black;
+}
