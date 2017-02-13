@@ -1,3 +1,45 @@
-div {
-  background-color: red;
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+}
+
+.hero span {
+  color: white;
+  font: bold 60px Helvetica, Sans-Serif;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.hero h2 {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  color: white;
+}
+
+.hero form {
+  position: absolute;
+  top: 275px;
+  left: 40px;
+}
+
+.form-email {
+  font-size: 30px;
+}
+
+.form-zip {
+  font-size: 30px;
+  width: 150px;
+  margin: 0 10px 0 10px;
+}
+
+button {
+  font-size: 30px;
 }
