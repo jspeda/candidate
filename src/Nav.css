@@ -1,7 +1,7 @@
-.nav-container {
+.Nav {
   display: flex;
   height: 10%;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   font-size: 40px;
   border: 1px solid black;
