@@ -6,9 +6,9 @@ class Nav extends Component {
   render() {
     return (
       <div className="Nav">
-        <div className="home-logo">Candidate</div>
+        <div className="home-logo"><Link to="/">Candidate</Link></div>
         <div className="issues"><Link to="/issues">issues</Link></div>
-        <div className="about">about</div>
+        <div className="about"><Link to="/about">about</Link></div>
         <div className="donate">donate</div>
       </div>
     )
