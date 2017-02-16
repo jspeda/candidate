@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import Footer from './Footer';
 import './App.css';
 import hero from './america-hero.jpg'
 
@@ -20,6 +21,12 @@ class App extends Component {
               </form>
             </div>
           </div>
+          <div className="lower-half-container">
+            <div className="lh-1">col 1</div>
+            <div className="lh-2">col 2</div>
+            <div className="lh-3">col 3</div>
+          </div>
+          <Footer />
         </div>
       </div>
     );

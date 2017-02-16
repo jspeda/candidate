@@ -43,3 +43,17 @@
 button {
   font-size: 30px;
 }
+
+.lower-half-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-half-container div {
+  width: 400px;
+  height: 600px;
+  margin: 20px;
+  border: 1px solid red;
+  text-align: center;
+}
