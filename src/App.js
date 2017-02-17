@@ -22,9 +22,9 @@ class App extends Component {
             </div>
           </div>
           <div className="lower-half-container">
-            <div className="lh-1">col 1</div>
-            <div className="lh-2">col 2</div>
-            <div className="lh-3">col 3</div>
+            <div className="lh-1">in the news</div>
+            <div className="lh-2">issues</div>
+            <div className="lh-3">social media</div>
           </div>
           <Footer />
         </div>

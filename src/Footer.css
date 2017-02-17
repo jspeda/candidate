@@ -2,4 +2,22 @@
   height: 200px;
   width: 100%;
   background: #747474;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.Footer div {
+  height: 100px;
+  width: 250px;
+  border: 1px solid silver;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.copyright {
+
 }
