@@ -8,6 +8,7 @@ import {
 import App from './App';
 import Issues from './Issues';
 import About from './About';
+import Donate from './Donate';
 import './index.css';
 
 const Root = () => (
@@ -16,6 +17,7 @@ const Root = () => (
       <Route exact path="/" component={App} />
       <Route exact path="/issues" component={Issues} />
       <Route exact path="/about" component={About} />
+      <Route exact path="/donate" component={Donate} />
     </div>
   </Router>
 )

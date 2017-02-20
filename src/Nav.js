@@ -9,7 +9,7 @@ class Nav extends Component {
         <div className="home-logo"><Link to="/">Candidate</Link></div>
         <div className="issues"><Link to="/issues">issues</Link></div>
         <div className="about"><Link to="/about">about</Link></div>
-        <div className="donate">donate</div>
+        <div className="donate"><Link to="/donate">donate</Link></div>
       </div>
     )
   }
