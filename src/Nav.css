@@ -4,6 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   font-size: 30px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .home-logo {
